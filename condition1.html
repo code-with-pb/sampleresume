@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conditional Redirect</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+   <!-- <h2>Select User Type:</h2>
+    <input type="radio" id="student" name="userType" value="student">
+    <label for="student">Student</label><br>
+    <input type="radio" id="other" name="userType" value="other">
+    <label for="other">Other</label><br><br>
+    <button onclick="redirectToPage()">Submit</button>
+
+    <script>
+        function redirectToPage() {
+            var userType = document.querySelector('input[name="userType"]:checked').value;
+            if (userType === 'student') {
+                window.location.href = 'condition2.html';
+            } else {
+                window.location.href = 'other-page.html';
+            }
+        }
+    </script> -->
+    <div class="checkout-container">
+        <h1>Checkout</h1>
+        <p>Total Amount: $100</p>
+        <img src="sai.jpg" alt="QR Code for Payment">
+        <button onclick="printPDF()">Print PDF</button>
+    </div>
+
+    <script>
+        function printPDF() {
+            window.print();
+        }
+    </script>
+</body>
+</html>

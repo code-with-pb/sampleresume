@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="b.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Register</h1>
+            <form action="#" method="POST">
+            <!--- <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required> -->
+                
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                
+                <label for="mobile">Mobile Number:</label><br>
+                <input type="tel" id="mobile" name="mobile"><br><br>
+                
+                <label for="ename">Employee Name:</label><br>
+                <input type="text" id="ename" name="ename"><br><br>
+
+                <label for="office_add">Office Address</label><br>
+                <input type="text" id="office_add" name="office_add"><br><br>
+                
+                <label for="hm_add">Home Address:</label><br>
+                <input type="text" id="hm_add" name="hm_add"><br><br>
+
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <label for="image"><h8>upload Image:</h8></label><br>
+                    <input type="file" name="image" accept="image/*">
+
+                    <!-- <label for="bonafide"><h8>Bonafide:</h8></label><br>
+                    <input type="file" name="bonafide" accept="bonafide/*"> -->
+
+                    <label for="adhar"><h8>Adhar Card Image:</h8></label><br>
+                    <input type="file" name="adhar" accept="adhar/*">
+
+                    <label for="el_bil"><h8>Electricity Bill:</h8></label><br>
+                    <input type="file" name="el_bil" accept="el_bil/*">
+
+
+
+
+                <button type = "submit"><a href="condition2.html">Register</a></button> 
+                <!--<button type = "submit">Register</button>-->
+            </form>
+        </div>
+        
+    </body>
+</html>
